@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw_data/
+# data/interim/      # Uncomment if generated
+# data/processed/    # Uncomment if generated and reproducible
+
+# Trained models
+# models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
