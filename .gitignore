@@ -21,7 +21,7 @@ data/cleaned_chess.csv
 data/final_chess.csv
 
 # Trained models
-# models/
+results/models/
 
 # OS files
 .DS_Store
