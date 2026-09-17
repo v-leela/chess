@@ -249,10 +249,6 @@ Used for model selection and evaluation during development.
 
 The 2026 games were kept as a final unseen test period.
 
-This chronological split better represents the real-world problem:
-
-> Given everything known before a chess game is played, can we predict its outcome?
-
 ----------
 
 # Models
@@ -277,8 +273,6 @@ DecisionTreeClassifier(
 
 ```
 
-The higher class weight for draws was used to account for their lower frequency and encourage the model to pay more attention to the draw class.
-
 ----------
 
 ## Random Forest
@@ -301,7 +295,6 @@ RandomForestClassifier(
 
 ```
 
-The Random Forest combines multiple decision trees and averages their predictions, providing a more robust model than a single decision tree.
 
 ----------
 
