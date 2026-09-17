@@ -2,8 +2,10 @@ import chess.pgn
 import pandas as pd
 import os
 
-pgn_folder = "/Users/vallurileelasaikrishna/Documents/chess/data/"
-output_folder = "/Users/vallurileelasaikrishna/Documents/chess/data/raw_data"
+project_dir = os.path.dirname(os.getcwd())
+
+pgn_folder = os.path.join(project_dir, "data")
+output_folder = os.path.join(project_dir, "data/raw_data")
 
 os.makedirs(output_folder, exist_ok=True)
 
